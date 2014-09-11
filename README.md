@@ -13,7 +13,7 @@ timeoutn is a simple library for taming timed out async work
 Here is a simple timed example. Where we call done callback before async work has finished.
 
 ```js
-var timeoutn = require('../')
+var timeoutn = require('timeoutn')
   , timedout
 
 function done(err) {
@@ -35,7 +35,7 @@ setTimeout(done, 3000)
 Or you could just use err passed to handle, for timed out scenario
 
 ```js
-var timeoutn = require('../')
+var timeoutn = require('timeoutn')
 
 function done(err) {
   if (err) {
