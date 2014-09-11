@@ -1,26 +1,24 @@
 {
   "name": "timeoutn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Dejan Ranisavljevic",
     "email": "dejan.ranisavljevic@gmail.com",
     "url": "http://dejan.ranisavljevic.com"
   },
-  "description": "Simple timeout control flow",
+  "description": "Simple library for taming timed out async work",
   "main": "index.js",
   "keywords": [
     "async",
     "callback",
-    "timeout",
-    "control",
-    "flow"
+    "timeout"
   ],
   "scripts": {
     "test": "tap test.js"
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "^0.4.12"
+    "tap": "~0.4.12"
   },
   "repository": {
     "type": "git",
